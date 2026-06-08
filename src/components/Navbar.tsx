@@ -4,7 +4,7 @@ interface NavbarProps {
   username?: string;
 }
 
-export default function Navbar({ username = "Aditya Yudis1" }: NavbarProps) {
+export default function Navbar({ username = "Peserta" }: NavbarProps) {
   return (
     <header className="bg-blue-700 text-white h-13 flex items-center justify-between px-4 sticky top-0 z-50 shadow-md">
       <div className="flex items-center gap-3">
